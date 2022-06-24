@@ -16,7 +16,7 @@ bl_info = {
     "author": "BD",
     "description": "",
     "blender": (2, 80, 0),
-    "version": (0, 0, 0),
+    "version": (0, 0, 1),
     "location": "",
     "warning": "",
     "doc_url": "https://github.com/BD-Review/test-unregister-error/",
