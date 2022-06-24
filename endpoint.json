@@ -1,0 +1,19 @@
+{
+    "schema_version": "super-addon-manager-version-info-1.0.0",
+    "versions": [
+        {
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "allow_automatic_download": true,
+            "download_url": "https://github.com/BD-Review/test-unregister-error/archive/refs/heads/main.zip",
+            "minimum_blender_version": [
+                2,
+                83,
+                0
+            ]
+        }
+    ]
+}

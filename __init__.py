@@ -11,6 +11,20 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
+bl_info = {
+    "name": "Test Unregister Error",
+    "author": "BD",
+    "description": "",
+    "blender": (2, 80, 0),
+    "version": (0, 0, 0),
+    "location": "",
+    "warning": "",
+    "doc_url": "https://github.com/BD-Review/test-unregister-error/",
+    "tracker_url": "https://github.com/BD-Review/test-unregister-error/issues",
+    "endpoint_url": "https://raw.githubusercontent.com/BD-Review/test-unregister-error/main/endpoint.json",
+    "category": "Generic"
+}
+
 
 
 def register():
@@ -18,4 +32,4 @@ def register():
 
 
 def unregister():
-    pass
+    raise ValueError
